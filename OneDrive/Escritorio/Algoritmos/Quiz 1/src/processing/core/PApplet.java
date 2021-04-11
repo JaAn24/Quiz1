@@ -27,9 +27,4 @@ public class PApplet {
 		return 0;
 	}
 
-	public void setup() {
-		// TODO Auto-generated method stub
-		
-	}
-
 }

@@ -1,5 +1,6 @@
 package Controller;
 
+//Clases de la figuras
 import Model.Circulo;
 import Model.Cuadrado;
 import Model.Logic;
