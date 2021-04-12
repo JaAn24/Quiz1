@@ -50,7 +50,7 @@ public void pintarCirculo(PApplet app) {
 			app.fill(255,0,125);
 			break;
 		}
-		app.circle(posX, posY, tam);
+		app.ellipse(posX, posY, tam, tam);
 		app.fill(0);
 		app.textSize(tam/2);
 		app.text(valor +"", posX, posY);

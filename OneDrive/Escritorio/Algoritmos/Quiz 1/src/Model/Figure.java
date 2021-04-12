@@ -23,6 +23,7 @@ int valor;
 	}
 	
 	public void bordes() {
+		
 		//colisiones de la figura
 		if(posX-tam/2<0) {
 			dirX = 1;

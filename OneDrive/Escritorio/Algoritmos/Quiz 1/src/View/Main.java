@@ -1,8 +1,5 @@
 package View;
 
-
-
-
 import Controller.Controller;
 import processing.core.PApplet;
 
@@ -43,6 +40,7 @@ public class Main extends PApplet{
 
 
 	public void mousePressed() {
+		
 		controller.pararMovimiento(mouseX, mouseY);
 			if(mouseButton==RIGHT) {
 					controller.NuevaFigura(mouseX, mouseY);}
